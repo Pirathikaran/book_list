@@ -1,14 +1,10 @@
 import * as React from 'react';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-import Detail from './Detail';
-import Home from './Home';
-import Headers from './header'
-import WebViewExample from './Webview';
-
-
-
-
+import Detail from '../screen/Detail';
+import Home from '../screen/Home';
+import Headers from '../header/header'
+import WebViewExample from '../screen/Webview';
 
 const RootStack = createStackNavigator({
     Home:{
